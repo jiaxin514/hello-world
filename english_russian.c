@@ -6,3 +6,11 @@
 //     输入两样都不会有8人
 //     输出两样都会的有   人 
 //     输出：输入数据错误，无法计算
+#include <stdio.h>
+int main(){
+	int all, en, ru, no, bo;
+	scanf("%d%d%d%d",&all,&en,&ru,&no);
+	bo = en + ru + no - all;
+	printf("%d",bo);
+	return 0; 
+}
